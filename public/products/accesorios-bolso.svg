@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Bolso de hombro">
+  <rect width="600" height="600" fill="#F6E6D6"/>
+  <path transform="translate(80 80) scale(2.2)" d="M12 21s-7-4.5-9.5-9C.7 8.6 2.6 4 6.6 4c2.2 0 3.6 1.3 4.4 2.6.8-1.3 2.2-2.6 4.4-2.6 4 0 5.9 4.6 4.1 8-2.5 4.5-9.5 9-9.5 9z" fill="none" stroke="#D48FA6" stroke-width="1.6"/><path transform="translate(470 460) scale(1.8)" d="M12 21s-7-4.5-9.5-9C.7 8.6 2.6 4 6.6 4c2.2 0 3.6 1.3 4.4 2.6.8-1.3 2.2-2.6 4.4-2.6 4 0 5.9 4.6 4.1 8-2.5 4.5-9.5 9-9.5 9z" fill="none" stroke="#D48FA6" stroke-width="1.6"/>
+  
+  <g fill="none" stroke="#8E3B5C" stroke-width="3" stroke-linecap="round">
+    <circle cx="250" cy="270" r="90"/>
+    <path d="M169 243 Q250 189 326.5 229.5"/>
+    <path d="M160 279 Q250 234 340 274.5"/>
+    <path d="M173.5 315 Q250 274.5 331 310.5"/>
+    <path d="M313 333 C394 378, 448 288, 484 324"/>
+  </g>
+  <text x="300" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#8E3B5C">Bolso de hombro</text>
+  <text x="300" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#3B2A2F" opacity=".7">Reemplazar con foto real</text>
+</svg>
