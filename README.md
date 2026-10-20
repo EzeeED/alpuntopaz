@@ -11,20 +11,17 @@ npm run dev      # http://localhost:3000
 npm run build    # build de producción
 ```
 
-## Publicación (GitHub Pages)
+## Publicación (GitHub Pages + dominio propio)
 
 Cada `push` a `main` construye el sitio y lo publica automáticamente
 (ver `.github/workflows/deploy.yml`). Queda en:
 
-**https://ezeeed.github.io/alpuntopaz/**
+**https://alpuntopaz.com**
 
-Activación (una sola vez): en GitHub, **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-GitHub Pages gratuito requiere que el repositorio sea público (o una cuenta GitHub Pro).
-
-### Dominio propio (opcional)
-
-Si más adelante usás un dominio (ej. `alpuntopaz.com.uy`): configuralo en **Settings → Pages → Custom domain**
-y en el workflow dejá `NEXT_PUBLIC_BASE_PATH` vacío y poné el dominio en `NEXT_PUBLIC_SITE_URL`.
+- Dominio comprado en Cloudflare. DNS: registros `A` de `@` a las IP de GitHub Pages
+  (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) y `CNAME` de `www` a `ezeeed.github.io`,
+  todos en modo **Solo DNS** (nube gris).
+- En GitHub: **Settings → Pages → Custom domain** = `alpuntopaz.com`, con **Enforce HTTPS** activado.
 
 ## Qué reemplazar
 

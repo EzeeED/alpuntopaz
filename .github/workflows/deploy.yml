@@ -18,9 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Si usás un dominio propio, dejá NEXT_PUBLIC_BASE_PATH vacío y poné el dominio en NEXT_PUBLIC_SITE_URL.
-      NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
-      NEXT_PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io
+      # Dominio propio: el sitio vive en la raíz (sin subcarpeta).
+      NEXT_PUBLIC_BASE_PATH: ""
+      NEXT_PUBLIC_SITE_URL: https://alpuntopaz.com
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
