@@ -9,63 +9,53 @@ import { ChevronIcon, InstagramIcon, StarIcon } from "./Icons";
 const testimonials = [
   {
     name: "Camila R.",
-    detail: "Compra de un amigurumi",
     stars: 5,
-    text: "Es demasiado hermoso 😍 Se nota el amor y la dedicación que tiene cada detalle. Llegó perfecto y me encantó muchísimo. ¡Sin dudas volvería a comprar!",
+    text: "Me encantó 😍 Está precioso y se nota todo el amor que hay detrás de cada detalle. Mucho más lindo de lo que imaginaba. ¡Sin duda volvería a comprar!",
   },
   {
     name: "Florencia M.",
-    detail: "Compra de un ramo tejido",
     stars: 5,
-    text: "Quedé enamorada de mi ramo de flores 🌷 Es precioso, delicado y dura para siempre. Fue un regalo muy especial y la presentación estaba divina.",
+    text: "Jocelyn es un amor, me ayudó a elegir los colores y quedó exactamente como quería. Gracias por la paciencia y por hacer algo tan lindo. 💕",
   },
   {
     name: "Lucía G.",
-    detail: "Compra para regalo",
     stars: 5,
-    text: "Le regalé uno de sus tejidos a mi mamá y le encantó. Todo está hecho con muchísimo cuidado y es mucho más lindo en persona. ❤️",
+    text: "Compré las flores para regalar y fueron un éxito total 🌷 Son delicadas, originales y quedan hermosas. Es un regalo diferente que vale muchísimo la pena.",
   },
   {
     name: "Agustina P.",
-    detail: "Pedido personalizado",
     stars: 5,
-    text: "Le pedí un diseño con unos colores específicos y quedó exactamente como lo imaginaba. Me encantó que pudiera personalizarlo. ¡Una genia! 🧶",
+    text: "Joce, ¡te quedó hermoso! 😍 Era justo lo que tenía en mente. Me encantó poder elegir los detalles y recibir algo hecho especialmente para mí.",
   },
   {
     name: "Martina S.",
-    detail: "Compra de un llavero tejido",
     stars: 5,
-    text: "Es chiquito, hermoso y tiene unos detalles increíbles. Lo llevo conmigo todos los días y ya me preguntaron varias veces dónde lo compré. 🥹",
+    text: "La calidad es preciosa y la terminación está impecable. Se nota que lleva tiempo y dedicación. Me encantan las cosas hechas a mano y esta superó mis expectativas. 🤍",
   },
   {
     name: "Valentina D.",
-    detail: "Compra de un peluche tejido",
     stars: 5,
-    text: "La calidad es hermosa, está muy bien terminado y es súper suave. Se nota que no es algo hecho a las apuradas. Me encantó la experiencia de compra.",
+    text: "La atención de Jocelyn fue excelente desde el primer momento. Me respondió todas las dudas y me mantuvo al tanto del pedido. ¡Una experiencia hermosa!",
   },
   {
     name: "Sofía B.",
-    detail: "Regalo de cumpleaños",
     stars: 5,
-    text: "Quería regalar algo diferente y encontré justo lo que buscaba. Fue un éxito, le encantó a la persona que lo recibió. ¡Gracias por tanta dedicación! 💕",
+    text: "Es demasiado tierno 🥹 Lo compré para regalar y quedó precioso. Me encanta apoyar los emprendimientos que hacen cosas únicas y con tanto cariño.",
   },
   {
     name: "Julieta F.",
-    detail: "Compra de flores tejidas",
     stars: 5,
-    text: "Las flores son una belleza. Los colores combinan precioso y quedaron divinas en mi habitación. Me encanta tener algo artesanal y diferente. 🌸",
+    text: "Joce tiene unas manos increíbles. Los colores quedaron divinos y el resultado fue incluso mejor de lo que esperaba. ¡Ya estoy pensando en mi próximo pedido! 🧶",
   },
   {
     name: "Antonella C.",
-    detail: "Primera compra",
     stars: 5,
-    text: "Era mi primera compra de crochet y superó mis expectativas. La atención fue excelente, me respondió todas las dudas y el resultado quedó precioso. ¡Recomiendo! 🤍",
+    text: "Mi primera compra y quedé encantada. Todo muy lindo, delicado y bien presentado. Sin duda lo recomiendo para quienes buscan un regalo original. 🌸",
   },
   {
     name: "Milagros T.",
-    detail: "Compra para un bebé",
     stars: 5,
-    text: "Encargué un regalito para un bebé y quedó demasiado tierno. Todo muy delicado y lindo, ideal para sorprender con algo hecho a mano. Sin duda repetiría. 🧸",
+    text: "Gracias por todo, Jocelyn ❤️ Se nota la dedicación que le pones a cada trabajo. Me encantó el resultado y la buena onda durante todo el pedido.",
   },
 ];
 
@@ -127,10 +117,7 @@ export default function Testimonials() {
                     <span aria-hidden="true" className="grid h-11 w-11 place-items-center rounded-full bg-rosa-claro font-serif font-bold text-vino">
                       {t.name.charAt(0)}
                     </span>
-                    <span>
-                      <span className="block font-bold text-vino">{t.name}</span>
-                      <span className="block text-sm text-tinta/70">{t.detail}</span>
-                    </span>
+                    <span className="font-bold text-vino">{t.name}</span>
                   </figcaption>
                 </figure>
               </li>
