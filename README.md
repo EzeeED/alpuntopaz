@@ -32,7 +32,7 @@ y en el workflow dejá `NEXT_PUBLIC_BASE_PATH` vacío y poné el dominio en `NEX
 | --- | --- |
 | Logo | `public/logo.png` (original con fondo transparente), `public/logo.webp` (versión liviana que usa la página), `public/icon.png` (favicon) y `public/og-image.jpg` (vista previa al compartir). |
 | Foto de "Sobre mí" | `public/sobre-mi.svg` → poné tu foto (ej. `sobre-mi.jpg`) y actualizá la ruta en `components/About.tsx`. |
-| Fotos de productos | `public/products/` y las rutas en `lib/products.ts` (ahí también editás nombres, descripciones y categorías). |
+| Productos | Fotos en `public/products/` (WebP 640×800) y datos en `lib/products.ts` (nombre, descripción, categoría y foto). |
 | Reseñas | `components/Testimonials.tsx` (marcadas como `[Reemplazar con reseñas reales]`). |
 | Preguntas frecuentes | `components/FAQ.tsx` |
 | WhatsApp / Instagram | `lib/site.ts` |

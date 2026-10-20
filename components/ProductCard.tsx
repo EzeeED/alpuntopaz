@@ -6,7 +6,7 @@ import { HeartIcon } from "./Icons";
 export default function ProductCard({ product }: { product: Product }) {
   return (
     <article className="card group flex h-full flex-col overflow-hidden">
-      <div className="relative aspect-square overflow-hidden bg-rosa-claro">
+      <div className="relative aspect-[4/5] overflow-hidden bg-rosa-claro">
         <Image
           src={asset(product.image)}
           alt={product.alt}
