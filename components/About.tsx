@@ -18,7 +18,7 @@ export default function About() {
           <div aria-hidden="true" className="absolute -inset-3 rounded-full border-2 border-dashed border-mimbre" />
           <Image
             src={asset("/sobre-mi-taller.webp")}
-            alt="Foto de la tejedora de Al Punto Paz sonriendo en su taller, con estantes de ovillos y banderines tejidos"
+            alt="Foto de Jocelyn, la tejedora de Al Punto Paz, sonriendo en su taller, con estantes de ovillos y banderines tejidos"
             width={720}
             height={720}
             className="relative aspect-square w-full rounded-full object-cover drop-shadow-xl"
@@ -33,7 +33,7 @@ export default function About() {
             Una aguja, un ovillo y mucho amor
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-tinta/85">
-            Hace más de 10 años agarré una aguja de crochet por primera vez y nunca más la solté. Lo que empezó como
+            ¡Hola! Soy <strong className="text-vino">Jocelyn</strong>. Hace más de 10 años agarré una aguja de crochet por primera vez y nunca más la solté. Lo que empezó como
             un pasatiempo se convirtió en <strong className="text-vino">Al Punto Paz</strong>: un espacio donde
             transformo ovillos en piezas que acompañan, abrigan y regalan momentos. Cada trabajo es único, porque está
             hecho a mano y pensado para vos.
