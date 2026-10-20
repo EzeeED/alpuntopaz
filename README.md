@@ -27,7 +27,7 @@ Cada `push` a `main` construye el sitio y lo publica automáticamente
 
 | Qué | Dónde |
 | --- | --- |
-| Logo | `public/logo.png` (original con fondo transparente), `public/logo.webp` (versión liviana que usa la página), `public/icon.png` (favicon) y `public/og-image.jpg` (vista previa al compartir). |
+| Logo | `public/logo.png` (original con fondo transparente), `public/logo.webp` (versión liviana que usa la página), `public/favicon.ico` + `public/icon-32.png` (pestaña, recorte de la cara), `public/icon.png` y `public/apple-touch-icon.png` (accesos directos) y `public/og-image.jpg` (vista previa al compartir). |
 | Foto de "Sobre mí" | `public/sobre-mi-taller.webp` (circular, fondo transparente). Si la reemplazás, usá un nombre nuevo para que los navegadores no muestren la vieja guardada en caché. |
 | Productos | Fotos en `public/products/` (WebP 640×800) y datos en `lib/products.ts` (nombre, descripción, categoría y foto). |
 | Reseñas | `components/Testimonials.tsx` |

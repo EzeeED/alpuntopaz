@@ -19,7 +19,14 @@ export const metadata: Metadata = {
   title,
   description,
   keywords: ["crochet", "tejido a mano", "amigurumis", "Uruguay", "artesanal", "Al Punto Paz"],
-  icons: { icon: asset("/icon.png"), apple: asset("/icon.png") },
+  icons: {
+    icon: [
+      { url: asset("/favicon.ico"), sizes: "any" },
+      { url: asset("/icon-32.png"), type: "image/png", sizes: "32x32" },
+      { url: asset("/icon.png"), type: "image/png", sizes: "192x192" },
+    ],
+    apple: { url: asset("/apple-touch-icon.png"), sizes: "180x180" },
+  },
   openGraph: {
     title,
     description,
