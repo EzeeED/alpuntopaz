@@ -29,6 +29,14 @@ export const PRODUCTS: Product[] = [
     alt: "Conejita amigurumi blanca con vestido rosa tejido al crochet",
   },
   {
+    id: "gatitos",
+    name: "Gatitos blanco y negro",
+    description: "Una pareja inseparable: uno blanco con naricita rosa y otro negro de ojos verdes.",
+    category: "Amigurumis",
+    image: "/products/amigurumi-gatitos.webp",
+    alt: "Dos gatitos amigurumi abrazados, uno blanco saludando y otro negro con detalles blancos y ojos verdes",
+  },
+  {
     id: "saquito-rayado",
     name: "Saquito rayado",
     description: "Saquito de punto calado en crudo y rosa, con botones de madera.",
