@@ -31,7 +31,7 @@ y en el workflow dejá `NEXT_PUBLIC_BASE_PATH` vacío y poné el dominio en `NEX
 | Qué | Dónde |
 | --- | --- |
 | Logo | `public/logo.png` (original con fondo transparente), `public/logo.webp` (versión liviana que usa la página), `public/icon.png` (favicon) y `public/og-image.jpg` (vista previa al compartir). |
-| Foto de "Sobre mí" | `public/sobre-mi.webp` (circular, fondo transparente). |
+| Foto de "Sobre mí" | `public/sobre-mi-taller.webp` (circular, fondo transparente). Si la reemplazás, usá un nombre nuevo para que los navegadores no muestren la vieja guardada en caché. |
 | Productos | Fotos en `public/products/` (WebP 640×800) y datos en `lib/products.ts` (nombre, descripción, categoría y foto). |
 | Reseñas | `components/Testimonials.tsx` |
 | Preguntas frecuentes | `components/FAQ.tsx` |

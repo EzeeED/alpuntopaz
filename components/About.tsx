@@ -17,7 +17,7 @@ export default function About() {
         <Reveal className="relative mx-auto w-full max-w-[17rem] sm:max-w-sm">
           <div aria-hidden="true" className="absolute -inset-3 rounded-full border-2 border-dashed border-mimbre" />
           <Image
-            src={asset("/sobre-mi.webp")}
+            src={asset("/sobre-mi-taller.webp")}
             alt="Foto de la tejedora de Al Punto Paz sonriendo en su taller, con estantes de ovillos y banderines tejidos"
             width={720}
             height={720}
