@@ -6,13 +6,67 @@ import SectionTitle from "./SectionTitle";
 import Reveal from "./Reveal";
 import { ChevronIcon, InstagramIcon, StarIcon } from "./Icons";
 
-// [Reemplazar con reseñas reales]
 const testimonials = [
-  { name: "Clienta 1", place: "Montevideo", stars: 5, text: "[Reemplazar con reseñas reales] Le encargué un amigurumi para mi sobrina y quedó divino. ¡Se nota el amor en cada detalle!" },
-  { name: "Clienta 2", place: "Canelones", stars: 5, text: "[Reemplazar con reseñas reales] El cárdigan es hermoso, abriga un montón y las terminaciones son impecables." },
-  { name: "Cliente 3", place: "Maldonado", stars: 5, text: "[Reemplazar con reseñas reales] Súper atenta durante todo el proceso. Me mandó fotos del avance y llegó perfecto." },
-  { name: "Clienta 4", place: "Salto", stars: 5, text: "[Reemplazar con reseñas reales] El ajuar para mi bebé es una obra de arte. Lo voy a guardar para siempre." },
-  { name: "Clienta 5", place: "Colonia", stars: 5, text: "[Reemplazar con reseñas reales] Pedí un bolso con los colores que quería y quedó exactamente como lo soñé." },
+  {
+    name: "Camila R.",
+    detail: "Compra de un amigurumi",
+    stars: 5,
+    text: "Es demasiado hermoso 😍 Se nota el amor y la dedicación que tiene cada detalle. Llegó perfecto y me encantó muchísimo. ¡Sin dudas volvería a comprar!",
+  },
+  {
+    name: "Florencia M.",
+    detail: "Compra de un ramo tejido",
+    stars: 5,
+    text: "Quedé enamorada de mi ramo de flores 🌷 Es precioso, delicado y dura para siempre. Fue un regalo muy especial y la presentación estaba divina.",
+  },
+  {
+    name: "Lucía G.",
+    detail: "Compra para regalo",
+    stars: 5,
+    text: "Le regalé uno de sus tejidos a mi mamá y le encantó. Todo está hecho con muchísimo cuidado y es mucho más lindo en persona. ❤️",
+  },
+  {
+    name: "Agustina P.",
+    detail: "Pedido personalizado",
+    stars: 5,
+    text: "Le pedí un diseño con unos colores específicos y quedó exactamente como lo imaginaba. Me encantó que pudiera personalizarlo. ¡Una genia! 🧶",
+  },
+  {
+    name: "Martina S.",
+    detail: "Compra de un llavero tejido",
+    stars: 5,
+    text: "Es chiquito, hermoso y tiene unos detalles increíbles. Lo llevo conmigo todos los días y ya me preguntaron varias veces dónde lo compré. 🥹",
+  },
+  {
+    name: "Valentina D.",
+    detail: "Compra de un peluche tejido",
+    stars: 5,
+    text: "La calidad es hermosa, está muy bien terminado y es súper suave. Se nota que no es algo hecho a las apuradas. Me encantó la experiencia de compra.",
+  },
+  {
+    name: "Sofía B.",
+    detail: "Regalo de cumpleaños",
+    stars: 5,
+    text: "Quería regalar algo diferente y encontré justo lo que buscaba. Fue un éxito, le encantó a la persona que lo recibió. ¡Gracias por tanta dedicación! 💕",
+  },
+  {
+    name: "Julieta F.",
+    detail: "Compra de flores tejidas",
+    stars: 5,
+    text: "Las flores son una belleza. Los colores combinan precioso y quedaron divinas en mi habitación. Me encanta tener algo artesanal y diferente. 🌸",
+  },
+  {
+    name: "Antonella C.",
+    detail: "Primera compra",
+    stars: 5,
+    text: "Era mi primera compra de crochet y superó mis expectativas. La atención fue excelente, me respondió todas las dudas y el resultado quedó precioso. ¡Recomiendo! 🤍",
+  },
+  {
+    name: "Milagros T.",
+    detail: "Compra para un bebé",
+    stars: 5,
+    text: "Encargué un regalito para un bebé y quedó demasiado tierno. Todo muy delicado y lindo, ideal para sorprender con algo hecho a mano. Sin duda repetiría. 🧸",
+  },
 ];
 
 export default function Testimonials() {
@@ -75,7 +129,7 @@ export default function Testimonials() {
                     </span>
                     <span>
                       <span className="block font-bold text-vino">{t.name}</span>
-                      <span className="block text-sm text-tinta/70">{t.place}</span>
+                      <span className="block text-sm text-tinta/70">{t.detail}</span>
                     </span>
                   </figcaption>
                 </figure>

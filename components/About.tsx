@@ -14,18 +14,17 @@ export default function About() {
   return (
     <section id="sobre-mi" aria-labelledby="sobre-mi-titulo" className="section">
       <div className="grid items-center gap-12 md:grid-cols-[0.9fr_1.1fr] md:gap-16">
-        <Reveal className="relative mx-auto w-full max-w-sm">
-          <div aria-hidden="true" className="absolute -left-4 -top-4 h-full w-full rounded-[2.5rem] border-2 border-dashed border-mimbre" />
-          {/* Reemplazá /public/sobre-mi.svg por tu foto (ej: /sobre-mi.jpg) */}
+        <Reveal className="relative mx-auto w-full max-w-[17rem] sm:max-w-sm">
+          <div aria-hidden="true" className="absolute -inset-3 rounded-full border-2 border-dashed border-mimbre" />
           <Image
-            src={asset("/sobre-mi.svg")}
-            alt="Foto de la tejedora de Al Punto Paz"
-            width={600}
+            src={asset("/sobre-mi.webp")}
+            alt="Foto de la tejedora de Al Punto Paz, sonriendo en su espacio de trabajo"
+            width={720}
             height={720}
-            className="relative aspect-[5/6] w-full rounded-[2.5rem] object-cover shadow-suave-lg"
+            className="relative aspect-square w-full rounded-full object-cover drop-shadow-xl"
           />
-          <LineYarn className="absolute -bottom-8 -right-6 h-16 w-20 text-vino/60" />
-          <LineHeart className="absolute -right-4 top-6 h-8 w-8 text-rosa" />
+          <LineYarn className="absolute -bottom-6 -right-4 h-16 w-20 text-vino/60" />
+          <LineHeart className="absolute -left-2 top-4 h-8 w-8 text-rosa" />
         </Reveal>
 
         <Reveal delay={120}>
