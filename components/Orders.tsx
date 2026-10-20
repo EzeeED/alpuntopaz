@@ -1,7 +1,7 @@
 import { waLink } from "@/lib/site";
 import SectionTitle from "./SectionTitle";
 import Reveal from "./Reveal";
-import { ChatIcon, GiftIcon, PaletteIcon, WhatsAppIcon, YarnIcon } from "./Icons";
+import { CashIcon, ChatIcon, GiftIcon, PaletteIcon, TransferIcon, WhatsAppIcon, YarnIcon } from "./Icons";
 
 const steps = [
   { icon: ChatIcon, title: "Me contás tu idea", text: "Qué querés, para quién y para cuándo." },
@@ -49,7 +49,23 @@ export default function Orders() {
         ))}
       </ol>
 
-      <Reveal className="mt-12 text-center">
+      <Reveal className="mt-12">
+        <div className="mx-auto flex max-w-2xl flex-col items-center gap-4 rounded-3xl border-2 border-dashed border-mimbre bg-white/60 px-6 py-5 text-center sm:flex-row sm:justify-center sm:gap-6 sm:text-left">
+          <p className="font-serif text-lg font-semibold text-vino">Medios de pago</p>
+          <ul className="flex flex-wrap justify-center gap-3">
+            <li className="inline-flex items-center gap-2 rounded-full bg-rosa-claro px-4 py-2 font-semibold text-tinta">
+              <CashIcon className="h-5 w-5 text-vino" />
+              Efectivo
+            </li>
+            <li className="inline-flex items-center gap-2 rounded-full bg-rosa-claro px-4 py-2 font-semibold text-tinta">
+              <TransferIcon className="h-5 w-5 text-vino" />
+              Transferencia bancaria
+            </li>
+          </ul>
+        </div>
+      </Reveal>
+
+      <Reveal className="mt-10 text-center">
         <a
           href={waLink("Hola Al Punto Paz! Tengo una idea para un encargo personalizado: ")}
           target="_blank"

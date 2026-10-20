@@ -116,6 +116,24 @@ export function PencilIcon(props: IconProps) {
   );
 }
 
+export function CashIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...line} {...props}>
+      <rect x="2.5" y="6" width="19" height="12" rx="2" />
+      <circle cx="12" cy="12" r="2.5" />
+      <path d="M6 9.5v5M18 9.5v5" />
+    </svg>
+  );
+}
+
+export function TransferIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...line} {...props}>
+      <path d="M4 8h14l-3.5-3.5M20 16H6l3.5 3.5" />
+    </svg>
+  );
+}
+
 export function ChevronIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...line} strokeWidth={2.2} {...props}>

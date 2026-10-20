@@ -11,6 +11,7 @@ const faqs = [
   { q: "¿Qué materiales usan?", a: "Hilados de calidad, elegidos según la pieza y su uso." },
   { q: "¿Cómo cuido mis prendas?", a: "Lavado a mano con agua fría y secado a la sombra, en plano." },
   { q: "¿Cómo hago un pedido?", a: "Escribime por WhatsApp o Instagram y lo coordinamos." },
+  { q: "¿Qué medios de pago aceptan?", a: "Efectivo o transferencia bancaria." },
 ];
 
 export default function FAQ() {
