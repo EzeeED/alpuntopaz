@@ -48,5 +48,4 @@ public/         logo e imágenes
 ## Notas
 
 - Todos los botones de pedido abren WhatsApp con un mensaje precargado; "Lo quiero" incluye el nombre del producto.
-- El formulario de contacto no necesita servidor: arma el mensaje con nombre, email y texto y lo abre en WhatsApp.
 - Las animaciones respetan la preferencia del sistema "reducir movimiento".
