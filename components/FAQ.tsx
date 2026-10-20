@@ -6,10 +6,9 @@ import Reveal from "./Reveal";
 import { ChevronIcon } from "./Icons";
 
 const faqs = [
-  { q: "¿Cuánto demora un encargo?", a: "Depende de la pieza; te paso un tiempo estimado al hacer el pedido." },
+  { q: "¿Cuánto demora un encargo?", a: "Depende de la pieza, el tamaño, el volumen, etc." },
   { q: "¿Hacen envíos?", a: "Sí, a todo Uruguay." },
   { q: "¿Qué materiales usan?", a: "Hilados de calidad, elegidos según la pieza y su uso." },
-  { q: "¿Cómo cuido mis prendas?", a: "Lavado a mano con agua fría y secado a la sombra, en plano." },
   { q: "¿Cómo hago un pedido?", a: "Escribime por WhatsApp o Instagram y lo coordinamos." },
   { q: "¿Qué medios de pago aceptan?", a: "Efectivo o transferencia bancaria." },
 ];
