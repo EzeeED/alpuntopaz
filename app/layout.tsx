@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title,
   description,
   keywords: ["crochet", "tejido a mano", "amigurumis", "Uruguay", "artesanal", "Al Punto Paz"],
-  icons: { icon: asset("/logo.png"), apple: asset("/logo.png") },
+  icons: { icon: asset("/icon.png"), apple: asset("/icon.png") },
   openGraph: {
     title,
     description,
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     siteName: "Al Punto Paz",
     locale: "es_UY",
     type: "website",
-    images: [{ url: asset("/logo.png"), width: 512, height: 512, alt: "Logo de Al Punto Paz" }],
+    images: [{ url: asset("/og-image.jpg"), width: 1200, height: 630, alt: "Logo de Al Punto Paz" }],
   },
-  twitter: { card: "summary", title, description, images: [asset("/logo.png")] },
+  twitter: { card: "summary_large_image", title, description, images: [asset("/og-image.jpg")] },
 };
 
 export const viewport: Viewport = {

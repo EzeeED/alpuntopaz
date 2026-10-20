@@ -31,7 +31,7 @@ export default function Header() {
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8 md:h-20">
         <a href="#inicio" className="flex items-center gap-2.5 rounded-full" onClick={() => setOpen(false)}>
-          <Image src={asset("/logo.png")} alt="" width={44} height={44} className="h-10 w-10 md:h-11 md:w-11" priority />
+          <Image src={asset("/logo.webp")} alt="" width={44} height={44} className="h-10 w-10 md:h-11 md:w-11" priority />
           <span className="font-serif text-xl font-semibold text-vino md:text-2xl">Al Punto Paz</span>
         </a>
 

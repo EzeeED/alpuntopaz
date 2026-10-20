@@ -20,8 +20,8 @@ export default function Hero() {
         <div className="relative mx-auto w-64 sm:w-80 md:order-1 md:w-full md:max-w-md">
           <div className="absolute inset-4 rounded-full bg-rosa-claro shadow-suave-lg" aria-hidden="true" />
           <Image
-            src={asset("/logo.png")}
-            alt="Logo de Al Punto Paz: una tejedora con anteojos tejiendo al crochet junto a una canasta de ovillos"
+            src={asset("/logo.webp")}
+            alt="Logo de Al Punto Paz: ilustración de una tejedora con anteojos y suéter blanco tejiendo al crochet, junto a una canasta de ovillos"
             width={512}
             height={512}
             priority

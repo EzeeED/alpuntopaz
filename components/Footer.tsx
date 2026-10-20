@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="mt-10 rounded-t-[3rem] bg-vino text-crema">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-8 px-5 py-14 text-center sm:px-8 md:flex-row md:justify-between md:text-left">
         <div className="flex flex-col items-center gap-4 md:flex-row">
-          <Image src={asset("/logo.png")} alt="Logo de Al Punto Paz" width={72} height={72} className="h-16 w-16 rounded-full bg-crema p-0.5" />
+          <Image src={asset("/logo.webp")} alt="Logo de Al Punto Paz" width={72} height={72} className="h-16 w-16 rounded-full bg-crema p-0.5" />
           <div>
             <p className="font-serif text-2xl font-semibold text-white">Al Punto Paz</p>
             <p className="text-rosa-claro">Al Punto Paz — Hecho a mano con amor 🧶</p>
