@@ -18,7 +18,7 @@ export default function About() {
           <div aria-hidden="true" className="absolute -inset-3 rounded-full border-2 border-dashed border-mimbre" />
           <Image
             src={asset("/sobre-mi.webp")}
-            alt="Foto de la tejedora de Al Punto Paz, sonriendo en su espacio de trabajo"
+            alt="Foto de la tejedora de Al Punto Paz sonriendo en su taller, con estantes de ovillos y banderines tejidos"
             width={720}
             height={720}
             className="relative aspect-square w-full rounded-full object-cover drop-shadow-xl"
