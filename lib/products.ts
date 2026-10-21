@@ -69,6 +69,14 @@ export const PRODUCTS: Product[] = [
     alt: "Vaquita amigurumi blanca con manchas negras y hocico rosado",
   },
   {
+    id: "luffy",
+    name: "Luffy",
+    description: "El pirata del sombrero de paja, con chaleco rojo, short azul y sus sandalias.",
+    category: "Amigurumis",
+    image: "/products/amigurumi-luffy.webp",
+    alt: "Amigurumi de Luffy con sombrero de paja, chaleco rojo, short azul y sandalias",
+  },
+  {
     id: "manta-ondas",
     name: "Manta de ondas",
     description: "Ondas en rosa, crudo y beige con conejitos en el borde. Ideal para cuna o sillón.",
